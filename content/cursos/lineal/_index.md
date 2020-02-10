@@ -31,11 +31,7 @@ menu:
 
 ## Libro para el curso: 
 
-Géza Schay, *A Concise Introduction to Linear Algebra*, Birkhauser, 2012.
-
-{{< gdocs src="https://drive.google.com/file/d/1-H7VoSrHgMVE1lwMOEWxg5sJpj62WBbR/view?usp=sharing" >}}
-
-
+[Géza Schay, *A Concise Introduction to Linear Algebra*, Birkhauser, 2012.](https://drive.google.com/file/d/1-H7VoSrHgMVE1lwMOEWxg5sJpj62WBbR/view?usp=sharing)
 
 
 
