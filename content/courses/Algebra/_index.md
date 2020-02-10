@@ -1,6 +1,8 @@
 ---
 # Course title, summary, and position.
-Página del curso Álgebra Lineal
+linktitle: algebra
+summary: Página del Curso de Álgebra Lineal
+weight: 1
 
 # Page metadata.
 title: Overview
@@ -11,13 +13,8 @@ toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
 
 # Add menu entry to sidebar.
-# - name: Declare this menu item as a parent with ID `name`.
+# - menu: algebra
 # - weight: Position of link in menu.
-#
-#menu:
-#  example:
-#    name: Overview
-#    weight: 1
 ---
 
 ## Temario del curso
@@ -55,5 +52,3 @@ Or, if you are creating a software documentation site, you can rename the `cours
 ```
 
 ## Update the docs menu
-
-If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`.
