@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
-linktitle: algebra
-summary: Página del Curso de Álgebra Lineal
+linktitle: An Example Course
+summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
 weight: 1
 
 # Page metadata.
@@ -13,11 +13,17 @@ toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
 
 # Add menu entry to sidebar.
-# - menu: algebra
+# - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
+menu:
+  example:
+    name: Overview
+    weight: 1
 ---
 
-## Temario del curso
+## Flexibility
+
+This feature can be used for publishing content such as:
 
 * **Online courses**
 * **Project or software documentation**
@@ -52,3 +58,5 @@ Or, if you are creating a software documentation site, you can rename the `cours
 ```
 
 ## Update the docs menu
+
+If you use the *docs* layout, note that the name of the menu in the front matter should be in the form `[menu.X]` where `X` is the folder name. Hence, if you rename the `courses/example/` folder, you should also rename the menu definitions in the front matter of files within `courses/example/` from `[menu.example]` to `[menu.<NewFolderName>]`.
