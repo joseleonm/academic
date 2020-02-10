@@ -1,7 +1,7 @@
 ---
 # Course title, summary, and position.
-linktitle: An Example Course
-summary: Learn how to use Academic's docs layout for publishing online courses, software documentation, and tutorials.
+linktitle: Análisis Numérico
+summary: Página del Curso de Análisis Numérico
 weight: 1
 
 # Page metadata.
@@ -15,10 +15,11 @@ type: docs  # Do not modify.
 # Add menu entry to sidebar.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
-menu:
-  example:
-    name: Overview
-    weight: 1
+
+#menu:
+#  example:
+#    name: Overview
+#    weight: 1
 ---
 
 ## Flexibility
