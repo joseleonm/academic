@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Probabilidad 1TV8
 summary: 
-weight: 1
+weight: 3
 
 # Page metadata.
 title: Probabilidad 1TV8
@@ -18,7 +18,7 @@ type: docs  # Do not modify.
 menu:
   proba:
     name: Temario
-    weight: 1
+    weight: 3
 ---
 
 ## Temario del Curso
@@ -33,7 +33,7 @@ menu:
 
 Peyton Peebles, *Principios de probabilidad, variables aleatorias y señales aleatorias*, Mc Graw Hill, 1987
 
-~
+
 
 
 

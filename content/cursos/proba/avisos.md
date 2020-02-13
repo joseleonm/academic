@@ -1,10 +1,10 @@
 ---
-title: 
+title: Avisos
 linktitle: Avisos
 toc: true
 type: docs
 date: "2019-12-02T00:00:00+01:00"
-draft: true
+draft: false
 menu:
   proba:
     name: Avisos
@@ -15,3 +15,4 @@ menu:
 ##### No tendremos clase este viernes 14/02/2020
 
 ##### Ya pueden consultar la primera tarea
+
