@@ -18,7 +18,6 @@ type: docs  # Do not modify.
 menu:
   proba:
     name: Temario
-    weight: 3
 ---
 
 ## Temario del Curso
