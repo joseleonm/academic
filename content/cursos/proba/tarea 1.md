@@ -32,8 +32,8 @@ Resuelva los siguientes ejercicios
     * $\overline{A \cap B \cap C} = \overline{A} \cup \overline{B} \cup \overline{C}$.
 5. Sean $A=B=\\{x \in \mathbb{R}|-1\leq x \leq 1\\}$, es $C=\{(x,y)|x^2+y^2=1\}$ un subconjunto de $A\times B$?    
 6. Hallar los siguientes conjuntos
-    * $\bigcup_{n=1}^\infty \left[a+\frac{1}{n}, b-\frac{1}{n}\right]$,
-    * $\bigcap_{n=1}^\infty \left(a-\frac{1}{n},b+\frac{1}{n}\right)$.
+    * $\displaystyle\bigcup_{n=1}^\infty \left[a+\frac{1}{n}, b-\frac{1}{n}\right]$,
+    * $\displaystyle\bigcap_{n=1}^\infty \left(a-\frac{1}{n},b+\frac{1}{n}\right)$.
 7. Sean $A=\\{k\in \mathbb{N}| k \leq 20\\}$, $B=\\{3k-1|k \in \mathbb{N}\\}$ y $C=\\{2k+1| k \in \mathbb{N}\\}$. Determine los siguientes conjuntos
     * $A\cap B \cap C$,
     * $(A\cap B)\setminus C$,
