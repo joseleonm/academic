@@ -30,7 +30,7 @@ Resuelva los siguientes ejercicios
 4. Use las leyes de De Morgan para probar que
     * $\overline{A \cap (B\cup C)}=(\overline{A} \cup \overline{B}) \cap (\overline{A}\cup \overline{C})$,
     * $\overline{A \cap B \cap C} = \overline{A} \cup \overline{B} \cup \overline{C}$.
-5. Sean $A=B=\\{x \in \mathbb{R}|-1\leq x \leq 1\\}$, es $C=\{(x,y)|x^2+y^2=1\}$ un subconjunto de $A\times B$?    
+5. Sean $A=B=\\{x \in \mathbb{R}|-1\leq x \leq 1\\}$, es $C=\\{(x,y)|x^2+y^2=1\\}$ un subconjunto de $A\times B$?    
 6. Hallar los siguientes conjuntos
     * $\displaystyle\bigcup_{n=1}^\infty \left[a+\frac{1}{n}, b-\frac{1}{n}\right]$,
     * $\displaystyle\bigcap_{n=1}^\infty \left(a-\frac{1}{n},b+\frac{1}{n}\right)$.
