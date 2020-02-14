@@ -12,5 +12,5 @@ menu:
 ---
 
 
-##### El día lunes 17 llegaré un poco tarde, mejor nos vemos a las 6.
+##### El día lunes 17 llegaré un poco tarde, nos vemos a las 6.
 
