@@ -4,7 +4,7 @@ linktitle: Eliminación Gaussiana
 toc: true
 type: docs
 date: "2020-02-18T00:05:00+01:00"
-draft: true
+draft: false
 menu:
   lineal:
     parent: Notas
