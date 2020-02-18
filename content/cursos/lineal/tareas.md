@@ -3,8 +3,8 @@ title: Tareas
 linktitle: Tareas
 toc: true
 type: docs
-date: "2019-02-18T00:00:00+01:00"
-draft: true
+date: "2020-02-18T00:00:00+01:00"
+draft: false
 menu:
   lineal:
     name: Tareas
@@ -12,7 +12,7 @@ menu:
 ---
 
 
-Estas son las tareas que he dejado hasta ahora (varias ya las han hecho)
+Estas son las tareas que he dejado hasta ahora 
 
   1. Leer el capítulo 1 del libro y las notas de ecuaciones paramétricas
   2. Hacer los ejercicios 2.1
