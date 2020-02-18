@@ -2,7 +2,7 @@
 # Course title, summary, and position.
 linktitle: Álgebra Lineal 1EV1
 summary: 
-weight: 1
+weight: 3
 
 # Page metadata.
 title: Álgebra Lineal 1EV1
@@ -18,7 +18,7 @@ type: docs  # Do not modify.
 menu:
   lineal:
     name: Temario
-    weight: 1
+    weight: 3
 ---
 
 ## Temario del Curso

@@ -11,7 +11,7 @@ menu:
     weight: 2
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 1
+weight: 2
 ---
 
 Recordemos que el proceso de Gauss aplicado a un sistema lineal de $m$ ecuaciones con $n$ incógnitas de la forma $(A|b)$ nos produce un sistema lineal equivalente $(U|c)$ donde $U$ es una matriz escalonada y $r$ el número de renglones no cero de la matriz $U$ es el rango de $A$.

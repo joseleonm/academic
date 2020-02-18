@@ -40,4 +40,4 @@ tiene la siguiente representación geométrica:
 
 <iframe scrolling="no" title="PlanoR3" src="https://www.geogebra.org/material/iframe/id/dyvngebh/width/1240/height/780/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="760px" height="550px" style="border:0px;" allowfullscreen> </iframe>
 
-Similarmente, puede editar los valores de los vectores de dirección y observar que plano se genera a partir de ellos y del punto inicial en el plano. 
+Similarmente, pueden editar los valores de los vectores de dirección y observar que plano se genera a partir de ellos y del punto inicial en el plano. 
