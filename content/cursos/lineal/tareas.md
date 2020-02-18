@@ -1,0 +1,20 @@
+---
+title: Tareas
+linktitle: Tareas
+toc: true
+type: docs
+date: "2019-02-18T00:00:00+01:00"
+draft: true
+menu:
+  lineal:
+    name: Tareas
+    weight: 1
+---
+
+
+Estas son las tareas que he dejado hasta ahora (varias ya las han hecho)
+
+  1. Leer el capítulo 1 del libro y las notas de ecuaciones paramétricas
+  2. Hacer los ejercicios 2.1
+  3. Hacer los ejercicios 2.2
+  4. Por cada uno de los ejercicios 2.1 y 2.2 que involucren 2 o 3 incógnitas usar los applets en las notas de Eliminación Gaussiana para confirmar sus respuestas geometricamente.

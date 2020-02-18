@@ -3,12 +3,12 @@ title: Ecuaciones Paramétricas de la recta y el plano
 linktitle: Ecuaciones paramétricas
 toc: true
 type: docs
-date: "2019-12-02T00:00:00+01:00"
+date: "2020-02-18T00:00:00+01:00"
 draft: false
-#menu:
-#  lineal:
-#    name: Avisos
-#    weight: 1
+menu:
+  lineal:
+    parent: Notas
+    weight: 1
 ---
 
 Un sistema de ecuaciones paramétricas permite representar una curva o superficie en el plano o en el espacio, mediante valores que recorren un intervalo de números reales, mediante una variable, llamada parámetro, considerando cada coordenada de un punto como una función dependiente del parámetro.
@@ -24,7 +24,7 @@ $$\begin{pmatrix}x \\\\ y \\\\ z \end{pmatrix} = \begin{pmatrix} 2 \\\\ 0 \\\\ -
 
 Esta ecuación se puede visualizar de la siguiente forma:
 
-<iframe scrolling="no" title="RectaR3" src="https://www.geogebra.org/material/iframe/id/mvrsgtde/width/1240/height/780/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="800px" height="588px" style="border:0px;" allowfullscreen> </iframe>
+<iframe scrolling="no" title="RectaR3" src="https://www.geogebra.org/material/iframe/id/mvrsgtde/width/1240/height/780/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="760px" height="550px" style="border:0px;" allowfullscreen> </iframe>
 
 Pueden cambiar los valores del punto en la recta y del vector de dirección para observar que recta genera por cada cambio de vectores así como el desplazamiento sobre la recta de los puntos de acuerdo al parámetro $t$.
 
@@ -38,6 +38,6 @@ Entonces el plano
 $$\begin{pmatrix}x \\\\ y \\\\ z \end{pmatrix} = \begin{pmatrix} 2 \\\\ 0 \\\\ -3 \end{pmatrix} + t\\,\begin{pmatrix} 1 \\\\ -1 \\\\ 2 \end{pmatrix}+s\\,\begin{pmatrix} 0 \\\\ 2 \\\\ 1 \end{pmatrix}$$
 tiene la siguiente representación geométrica:
 
-<iframe scrolling="no" title="PlanoR3" src="https://www.geogebra.org/material/iframe/id/dyvngebh/width/1240/height/780/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="800px" height="588px" style="border:0px;" allowfullscreen> </iframe>
+<iframe scrolling="no" title="PlanoR3" src="https://www.geogebra.org/material/iframe/id/dyvngebh/width/1240/height/780/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="760px" height="550px" style="border:0px;" allowfullscreen> </iframe>
 
 Similarmente, puede editar los valores de los vectores de dirección y observar que plano se genera a partir de ellos y del punto inicial en el plano. 
