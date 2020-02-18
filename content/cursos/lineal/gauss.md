@@ -32,5 +32,5 @@ Y geometricamente esto significa que el punto $(5/4,-3/4)$ es el punto de inters
 
 {{< figure library="true" src="ec1.png" title="Intersección de las rectas" lightbox="true" height="500px" width="500px">}}
 
-<iframe scrolling="no" title="Sistemas lineales 2x2" src="https://www.geogebra.org/material/iframe/id/fsdzvjeu/width/1510/height/738/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1200px" height="800px" style="border:0px;"> </iframe>
+<iframe scrolling="no" title="Sistemas lineales 2x2" src="https://www.geogebra.org/material/iframe/id/fsdzvjeu/width/1510/height/738/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="800px" height="588px" style="border:0px;" allowfullscreen> </iframe>
 
