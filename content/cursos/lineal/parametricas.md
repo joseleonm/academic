@@ -24,7 +24,7 @@ $$\begin{pmatrix}x \\\\ y \\\\ z \end{pmatrix} = \begin{pmatrix} 2 \\\\ 0 \\\\ -
 
 Esta ecuación se puede visualizar de la siguiente forma:
 
-<iframe scrolling="no" title="RectaR3" src="https://www.geogebra.org/material/iframe/id/mvrsgtde/width/1240/height/780/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1240px" height="780px" style="border:0px;" allowfullscreen> </iframe>
+<iframe scrolling="no" title="RectaR3" src="https://www.geogebra.org/material/iframe/id/mvrsgtde/width/1240/height/780/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="800px" height="588px" style="border:0px;" allowfullscreen> </iframe>
 
 Pueden cambiar los valores del punto en la recta y del vector de dirección para observar que recta genera por cada cambio de vectores así como el desplazamiento sobre la recta de los puntos de acuerdo al parámetro $t$.
 
@@ -38,6 +38,6 @@ Entonces el plano
 $$\begin{pmatrix}x \\\\ y \\\\ z \end{pmatrix} = \begin{pmatrix} 2 \\\\ 0 \\\\ -3 \end{pmatrix} + t\\,\begin{pmatrix} 1 \\\\ -1 \\\\ 2 \end{pmatrix}+s\\,\begin{pmatrix} 0 \\\\ 2 \\\\ 1 \end{pmatrix}$$
 tiene la siguiente representación geométrica:
 
-<iframe scrolling="no" title="PlanoR3" src="https://www.geogebra.org/material/iframe/id/dyvngebh/width/1240/height/780/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1240px" height="780px" style="border:0px;" allowfullscreen> </iframe>
+<iframe scrolling="no" title="PlanoR3" src="https://www.geogebra.org/material/iframe/id/dyvngebh/width/1240/height/780/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="800px" height="588px" style="border:0px;" allowfullscreen> </iframe>
 
 Similarmente, puede editar los valores de los vectores de dirección y observar que plano se genera a partir de ellos y del punto inicial en el plano. 
