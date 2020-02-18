@@ -1,5 +1,5 @@
 ---
-title: Interpretación geométrica de la eliminación por método de Gauss
+title: Interpretación geométrica de las soluciones por método de Gauss
 linktitle: Eliminación Gaussiana
 toc: true
 type: docs
