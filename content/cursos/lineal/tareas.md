@@ -19,3 +19,4 @@ Estas son las tareas que he dejado hasta ahora
   2. Hacer los ejercicios 2.1
   3. Hacer los ejercicios 2.2
   4. Por cada uno de los ejercicios 2.1 y 2.2 que involucren 2 o 3 incógnitas usar los applets en las notas de Eliminación Gaussiana para confirmar sus respuestas geometricamente.
+  5. Hacer los ejercicios 2.3
