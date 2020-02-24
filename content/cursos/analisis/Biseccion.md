@@ -3,7 +3,7 @@ title: Método de Bisección
 linktitle: Bisección
 toc: true
 type: docs
-date: "2020-02-24T08:00:00-06:00"
+publishDate: "2020-02-24T10:30:00-06:00"
 draft: false
 menu:
   analisis:
