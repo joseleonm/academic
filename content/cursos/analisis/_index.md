@@ -6,8 +6,6 @@ weight: 1
 
 # Page metadata.
 title: Análisis numérico 3BV1
-date: "2020-02-09T00:00:00Z"
-lastmod: "2020-02-09T00:00:00Z"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -17,8 +15,16 @@ type: docs  # Do not modify.
 # - weight: Position of link in menu.
 menu:
   analisis:
+    name: Calificaciones
+    weight: 10
+    name: Tareas
+    weight: 4
+    name: Métodos
+    weight: 3
+    name: Prácticas
+    weight: 2    
     name: Temario
-    weight: 1
+    weight: 1    
 ---
 
 ## Temario del Curso
