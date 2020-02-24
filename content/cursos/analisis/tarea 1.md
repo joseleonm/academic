@@ -8,10 +8,9 @@ draft: false
 menu:
   analisis:
     parent: Tareas
-    weight: 2
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 2
+# weight: 2
 ---
 
 Resuelva los siguientes ejercicios

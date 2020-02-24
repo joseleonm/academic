@@ -1,6 +1,6 @@
 ---
 title: 
-linktitle: tarea 1
+linktitle: Practica
 toc: true
 type: docs
 date: "2019-02-14T00:00:00+01:00"
@@ -8,7 +8,7 @@ draft: false
 menu:
   analisis:
     name: Prácticas
-    weight: 2
+    weight: 5
 ---
 
 Realizaremos las prácticas usando LaTeX en Overleaf, si aún no tienen cuenta por favor registrense en [Overleaf](https://www.overleaf.com?r=af82b600&rm=d&rs=b).

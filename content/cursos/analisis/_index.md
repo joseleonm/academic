@@ -16,10 +16,10 @@ type: docs  # Do not modify.
 menu:
   analisis:
     name: Calificaciones
-    weight: 10
+    weight: 5
     name: Tareas
-    weight: 4
-    name: Métodos
+    weight: 3
+    name: Métodos Numéricos
     weight: 3
     name: Prácticas
     weight: 2    
