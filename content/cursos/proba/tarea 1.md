@@ -1,14 +1,14 @@
 ---
 title: Tarea 1
 linktitle: tarea 1
-toc: true
+toc: false
 type: docs
 date: "2019-12-02T00:00:00+01:00"
 draft: false
 menu:
   proba:
     parent: Tareas
-    weight: 2
+    weight: 1
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
 weight: 2
