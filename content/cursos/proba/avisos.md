@@ -12,7 +12,5 @@ menu:
 ---
 
 
-##### No tendremos clase este viernes 14/02/2020
-
-##### Ya pueden consultar la primera tarea
+##### Debido al paro de 48 hrs posponemos el examen para el martes si ya se reanudaron clases. Ese día me entregan su tarea.
 
