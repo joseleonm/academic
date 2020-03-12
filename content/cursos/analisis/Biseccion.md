@@ -75,6 +75,8 @@ int main(){
 	int k=1;
 	cout.setf(ios::fixed);
 	float x=0.5*(a+b); // Primera bisección
+	cout << 0 << setprecision(6) << setw(10) << x << setw(10) << f(x)
+		 << setprecision(4) << setw(8) << a << setw(8) << b << endl;
 	while ((k<=kmax) && ((b-a)/2>eps)){
 		if(f(x)*f(a)>0)  	 // Compara para
 			a=x;			 // elegir el
