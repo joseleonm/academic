@@ -55,6 +55,7 @@ El siguiente codigo implementa el método de punto fijo en C++:
 // de iteraciones permitidas, kmax. 						 //
 // El programa muestra una tabla con los valores de x y su evaluación en g.	 //
 ///////////////////////////////////////////////////////////////////////////////////
+# include <iostream>
 # include <iomanip>
 # include <math.h> // para log x
 using namespace std; // Para usar cout
@@ -84,17 +85,19 @@ int main(){
     cout << " eps = " << eps << "  kmax = " << kmax << endl;
     cout << "Los resultados son\n"; // Muestra el encabezado de la tabla
     cout << "k" << setw(16) << "x" << setw(22) << "f(x)\n";
+    cout << 0 << setprecision(9) << setw(20) << p << setw(20) << f(p)
+             << endl;
     int k=1;
     cout.setf(ios::fixed);
     while ((k<=kmax) && (fabs(f(p)-p)>eps)){
         // Muestra los valores de k, x, y, a, b
-        cout << k << setprecision(9) << setw(20) << p << setw(20) << f(p)
+        cout << k << setprecision(9) << setw(20) << f(p) << setw(20) << f(f(p))
              << endl;
         k++; // incrementa el contador del ciclo
+        if (fabs(f(f(p))-f(p))<=eps) cout << "El punto fijo de f es " << p; 
         p=f(p);
     };
-    if (fabs(f(p)-p)<=eps) cout << "El punto fijo de f es " << f(p); 
-    else if (k>kmax) cout << "no converge";
+    if (k>kmax) cout << "El metodo no converge en " << kmax << " pasos";
     return 0;
 }
 // El subprograma para ingresar la función f

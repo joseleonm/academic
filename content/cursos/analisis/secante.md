@@ -66,19 +66,23 @@ int main(){
     cout <<  "p0= " << p0 << "p1= " << p1 << " eps = " << eps << "  kmax = " << kmax << endl;
     cout << "Los resultados son\n"; // Muestra el encabezado de la tabla
     cout << "k" << setw(15) << "x" << setw(22) << "f(x)\n";
-    int k=1;
+    cout << 0 << setprecision(10) << setw(20) << p0 << setw(20) << f(p0)
+             << endl;
+    cout << 1 << setprecision(10) << setw(20) << p1 << setw(20) << f(p1)
+             << endl;         
+    int k=2;
     p=p0;
     cout.setf(ios::fixed);
     while ((k<=kmax) && (fabs(f(p))>eps)){
+        p0=p; 
+        p=p1-f(p1)/secante(p0,p1);
         // Muestra los valores de k, p y f(p)
         cout << k << setprecision(10) << setw(20) << p << setw(20) << f(p)
              << endl;
-        k++; // incrementa el contador del ciclo
-        p0=p; 
-        p=p1-f(p1)/secante(p0,p1);
+        k++; // incrementa el contador del ciclo        
     };
     if (fabs(f(p))<=eps) cout << "La raiz de f es " << p0; 
-    else if (k>kmax) cout << "no converge";
+    else if (k>kmax) cout << "El metodo no converge en " << kmax << " pasos";
     return 0;
 }
 // El subprograma para ingresar la función f

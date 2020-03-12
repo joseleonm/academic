@@ -47,11 +47,11 @@ Considerarémos el siguiente codigo en C++:
 using namespace std; // Para usar cout
 
 
-float f(float x); // Declara la función f
+long double f(long double x); // Declara la función f
 
 int main(){
 	int kmax;
-	float a, b, eps;
+	long double a, b, eps;
 	cout << "Ingrese a, b, eps, kmax\n";
 	cin >> a >> b >> eps >> kmax;				
 	// Verificamos que los valores ingresados permitan usar el algoritmo
@@ -81,7 +81,7 @@ int main(){
 		else if(f(x)*f(b)>0) // intervalo
 			b=x;			 // correcto
 		else{
-			cout << "El cero de la funcion en el intervalo ("<< a <<"," << b <<") es " << x; 
+			cout << "El cero de la funcion es " << x; 
 			exit(0);
 		} 
 	x=0.5*(a+b); // Siguiente bisección
@@ -90,11 +90,12 @@ int main(){
 		 << setprecision(4) << setw(8) << a << setw(8) << b << endl;
 	k++; // incrementa el contador del ciclo
 	}
-	if (k>kmax) cout << "no converge";
+	if (k>kmax) cout << "El algoritmo no converge en menos de " << kmax << "pasos";
+	else cout << "El cero de la funcion es " << setprecision(6) << x;
 	return 0;
 }
 // El subprograma para ingresar la función f
-float f(float x){
-	return x*x-2*x;
+long double f(long double x){
+	return pow(x,3)-sin(x);
 }
 ```

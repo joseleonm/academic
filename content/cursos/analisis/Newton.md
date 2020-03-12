@@ -69,8 +69,8 @@ int main(){
     cout << "Los valores ingresados son \n";
     cout <<  "p0= " << p0 << " eps = " << eps << "  kmax = " << kmax << endl;
     cout << "Los resultados son\n"; // Muestra el encabezado de la tabla
-    cout << "k" << setw(15) << "x" << setw(22) << "f(x)\n";
-    int k=1;
+    cout << "k" << setw(15) << "x" << setw(22) << "f(x)\n"; 
+    int k=0;
     p=p0;
     cout.setf(ios::fixed);
     while ((k<=kmax) && (fabs(f(p0))>eps)){
@@ -82,7 +82,7 @@ int main(){
         p=p-f(p)/fprima(p);
     };
     if (fabs(f(p))<=eps) cout << "La raiz de f es " << p0; 
-    else if (k>kmax) cout << "no converge";
+    else if (k>kmax) cout << "El metodo no converge en " << kmax << " pasos";
     return 0;
 }
 // El subprograma para ingresar la función f
